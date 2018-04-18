@@ -1,0 +1,6 @@
+[flossware-apps-rpm]
+name=flossware-apps
+baseurl=http://yum/repo/yum/apps
+gpgcheck=0
+repo_gpgcheck=0
+enabled=1

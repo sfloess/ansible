@@ -1,0 +1,4 @@
+---
+dependencies:
+  - sfloess/repo/yum/apps
+  - sfloess/repo/yum/flossware

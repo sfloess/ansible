@@ -1,0 +1,3 @@
+---
+- name: Copy FlossWare repo file
+  copy: src=flossware.repo dest=/etc/yum.repos.d
