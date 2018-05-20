@@ -1,0 +1,11 @@
+---
+
+- name: Setup host
+  hosts: jware
+
+  roles:
+  - sfloess/jware
+  - common/security
+  - operatingSystem/fedora/virtualization
+  - operatingSystem/fedora/lxde
+  - common/workstation

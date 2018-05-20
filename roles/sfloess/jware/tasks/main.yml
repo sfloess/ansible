@@ -1,0 +1,6 @@
+---
+
+- name: Setup port
+  set_fact:
+      ansible_ssh_port: 2223
+
