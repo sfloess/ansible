@@ -1,0 +1,8 @@
+---
+
+- name: Setup a local debian workstation
+  hosts: all
+
+  roles:
+  - linux/debian/apt
+  - linux/debian/desktop/apps
